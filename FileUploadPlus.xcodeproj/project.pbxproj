@@ -16,6 +16,71 @@
 			path = FileUploadPlus;
 			sourceTree = "<group>";
 		};
+		C5EF11B130175CC400D28723 /* FileUploadPlusCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusCore;
+			sourceTree = "<group>";
+		};
+		C5EF11B230175CC400D28723 /* FileUploadPlusEngine */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusEngine;
+			sourceTree = "<group>";
+		};
+		C5EF11B330175CC400D28723 /* FileUploadPlusServices */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusServices;
+			sourceTree = "<group>";
+		};
+		C5EF11B430175CC400D28723 /* FileUploadPlusPipeline */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusPipeline;
+			sourceTree = "<group>";
+		};
+		C5EF11B530175CC400D28723 /* FileUploadPlusMetrics */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusMetrics;
+			sourceTree = "<group>";
+		};
+		C5EF11B630175CC400D28723 /* FileUploadPlusDownload */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusDownload;
+			sourceTree = "<group>";
+		};
+		C5EF11B730175CC400D28723 /* FileUploadPlusGRDB */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusGRDB;
+			sourceTree = "<group>";
+		};
+		C5EF11B830175CC400D28723 /* FileUploadPlusPreprocess */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusPreprocess;
+			sourceTree = "<group>";
+		};
+		C5EF11B930175CC400D28723 /* FileUploadPlusHealthCheck */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusHealthCheck;
+			sourceTree = "<group>";
+		};
+		C5EF11BA30175CC400D28723 /* FileUploadPlusNetwork */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusNetwork;
+			sourceTree = "<group>";
+		};
+		C5EF11BB30175CC400D28723 /* FileUploadPlusAPM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusAPM;
+			sourceTree = "<group>";
+		};
+		C5EF11BC30175CC400D28723 /* FileUploadPlusEncryption */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusEncryption;
+			sourceTree = "<group>";
+		};
+		C5EF11BD30175CC400D28723 /* FileUploadPlusCDN */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/FileUploadPlusCDN;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C5EF11A430175CC400D28723 /* FileUploadPlus */,
+				C5EF11B030175CC400D28723 /* Sources */,
 				C5EF11A330175CC400D28723 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +109,26 @@
 				C5EF11A230175CC400D28723 /* FileUploadPlus.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C5EF11B030175CC400D28723 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C5EF11B130175CC400D28723 /* FileUploadPlusCore */,
+				C5EF11B230175CC400D28723 /* FileUploadPlusEngine */,
+				C5EF11B330175CC400D28723 /* FileUploadPlusServices */,
+				C5EF11B430175CC400D28723 /* FileUploadPlusPipeline */,
+				C5EF11B530175CC400D28723 /* FileUploadPlusMetrics */,
+				C5EF11B630175CC400D28723 /* FileUploadPlusDownload */,
+				C5EF11B730175CC400D28723 /* FileUploadPlusGRDB */,
+				C5EF11B830175CC400D28723 /* FileUploadPlusPreprocess */,
+				C5EF11B930175CC400D28723 /* FileUploadPlusHealthCheck */,
+				C5EF11BA30175CC400D28723 /* FileUploadPlusNetwork */,
+				C5EF11BB30175CC400D28723 /* FileUploadPlusAPM */,
+				C5EF11BC30175CC400D28723 /* FileUploadPlusEncryption */,
+				C5EF11BD30175CC400D28723 /* FileUploadPlusCDN */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +148,19 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C5EF11A430175CC400D28723 /* FileUploadPlus */,
+				C5EF11B130175CC400D28723 /* FileUploadPlusCore */,
+				C5EF11B230175CC400D28723 /* FileUploadPlusEngine */,
+				C5EF11B330175CC400D28723 /* FileUploadPlusServices */,
+				C5EF11B430175CC400D28723 /* FileUploadPlusPipeline */,
+				C5EF11B530175CC400D28723 /* FileUploadPlusMetrics */,
+				C5EF11B630175CC400D28723 /* FileUploadPlusDownload */,
+				C5EF11B730175CC400D28723 /* FileUploadPlusGRDB */,
+				C5EF11B830175CC400D28723 /* FileUploadPlusPreprocess */,
+				C5EF11B930175CC400D28723 /* FileUploadPlusHealthCheck */,
+				C5EF11BA30175CC400D28723 /* FileUploadPlusNetwork */,
+				C5EF11BB30175CC400D28723 /* FileUploadPlusAPM */,
+				C5EF11BC30175CC400D28723 /* FileUploadPlusEncryption */,
+				C5EF11BD30175CC400D28723 /* FileUploadPlusCDN */,
 			);
 			name = FileUploadPlus;
 			packageProductDependencies = (

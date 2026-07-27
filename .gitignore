@@ -1,0 +1,45 @@
+# ============================================================
+# FileUploadPlus — .gitignore
+# ============================================================
+
+# ---------- Xcode ----------
+*.xcuserstate
+*.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcscmblueprint
+DerivedData/
+build/
+
+# ---------- Swift Package Manager ----------
+.build/
+.swiftpm/
+*.xcodeproj/xcshareddata/
+
+# ---------- CocoaPods ----------
+Pods/
+
+# ---------- Carthage ----------
+Carthage/Build/
+
+# ---------- macOS ----------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+
+# ---------- Screenshots (local only) ----------
+# Screenshots are for the README; uncomment the next line if
+# you prefer to keep them out of version control.
+# screenshots/
+
+# ---------- Secrets & Config ----------
+*.xcconfig
+!*.sample.xcconfig
+.env
+.env.*
+Secrets/
