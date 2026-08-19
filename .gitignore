@@ -43,3 +43,6 @@ Thumbs.db
 .env
 .env.*
 Secrets/
+
+# Local
+*.log
